@@ -34,6 +34,12 @@ function init() {
             name: "usage"
         },
         {
+            type: "list",
+            message: "Select the type of license you would like to use for this project.",
+            choices: ["MIT", "GPLv2", "Apache 2.0", "GPLv3", "BSD 3-clause", "The Unlicense", "BSD 2-clause", "LGPLv3", "AGPLv3"],
+            name: "license"
+        },
+        {
             type: "input",
             message: "Enter the contribution guidelines for your project.",
             name: "contribution"
@@ -56,6 +62,7 @@ function init() {
     ])
     .then(function(answers) {
         console.log(answers);
+
     })
 };
 
