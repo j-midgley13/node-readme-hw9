@@ -63,7 +63,14 @@ function init() {
     .then(function(answers) {
         console.log(answers);
 
-    })
+        fs.writeFile("README.md", generateMarkdown(answers), function(err){
+            if (err){
+                return console.log(err);
+            }
+        })
+        console.log("successful install");
+    });
+    
 };
 
 // function call to initialize program
