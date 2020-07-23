@@ -1,34 +1,34 @@
-# Hello!
+# Project Cool Dude
 
 ## Description
 -------------
-This is my project
+This is a place you can see my cool stuff. Because I am just such a cool guy.
 
 ## Table of Contents
 -------------
 
 ## Installation
 -------------
-Use GitHub okay
+Instructions are so easy its cool.
 
 ## Usage
 -------------
-It is pretty intuitive. Just give it a go.
+Usage is the easiest! Coolio!
 
 ## License
 -------------
-This project is currently licensed under the MIT license.
+This project is currently licensed under the The Unlicense license.
 
 ## Contributing
 -------------
-No contributions at this time. Thank you.
+No contributions unless you are cooler than me. Doubt it!
 
 ## Tests
 -------------
-undefined
+Test it on the coolness scale.
 
 ## Questions
 -------------
-Any questions regarding this project please contact me at:
-GitHub: j-midgley13
+Any questions regarding this project please contact me at:  
+GitHub: https://www.github.com/j-midgley13  
 email: jameson.midgley@gmail.com

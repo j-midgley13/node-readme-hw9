@@ -31,8 +31,8 @@ ${data.test}
 
 ## Questions
 -------------
-Any questions regarding this project please contact me at:
-GitHub: ${data.username}
+Any questions regarding this project please contact me at:  
+GitHub: https://www.github.com/${data.username}  
 email: ${data.email}
 `;
 }
