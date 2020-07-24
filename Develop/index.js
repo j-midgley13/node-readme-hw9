@@ -36,7 +36,7 @@ function init() {
         {
             type: "list",
             message: "Select the type of license you would like to use for this project.",
-            choices: ["MIT", "GPLv2", "Apache 2.0", "GPLv3", "BSD 3-clause", "The Unlicense", "BSD 2-clause", "LGPLv3", "AGPLv3"],
+            choices: ["MIT", "MPL 2.0", "Apache 2.0", "GNU GPLv3", "BSD 3--clause", "The Unlicense", "Boost 1.0", "ISC", "AGPLv3"],
             name: "license"
         },
         {

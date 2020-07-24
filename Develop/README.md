@@ -1,34 +1,42 @@
-# Project Cool Dude
+# Jameson Midgley
 
-## Description
--------------
-This is a place you can see my cool stuff. Because I am just such a cool guy.
+  -------------
 
-## Table of Contents
--------------
+## Description  
 
-## Installation
--------------
-Instructions are so easy its cool.
+Here is a description.  
 
-## Usage
--------------
-Usage is the easiest! Coolio!
+## Table of Contents  
 
-## License
--------------
-This project is currently licensed under the The Unlicense license.
+* Installation  
+* Usage  
+* License  
+* Contributing  
+* Tests  
+* Questions  
 
-## Contributing
--------------
-No contributions unless you are cooler than me. Doubt it!
+## Installation  
 
-## Tests
--------------
-Test it on the coolness scale.
+Install it on your computer.  
 
-## Questions
--------------
+## Usage  
+
+Use it by installing a ReadMe.  
+
+## License  
+
+This project is currently licensed under the ISC license.  
+
+## Contributing  
+
+No contributions at this time.  
+
+## Tests  
+
+Test by trying it out on your computer.  
+
+## Questions  
+
 Any questions regarding this project please contact me at:  
 GitHub: https://www.github.com/j-midgley13  
 email: jameson.midgley@gmail.com
