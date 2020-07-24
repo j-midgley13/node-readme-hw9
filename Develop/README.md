@@ -1,10 +1,10 @@
-# Testing
+# ReadMe Generator
 
-  ##  ![License: The Unlicense](https://img.shields.io/badge/License-The%20Unlicense-informational?style=for-the-badge&logo=appveyor.svg)
+  ##  ![License: MIT](https://img.shields.io/badge/License-MIT-informational?style=for-the-badge&logo=appveyor.svg)
 
 ## Description  
 
-description testing  
+This project is designed for a user to generat a README file for any project using the command line. easy set up for a professional-looking ReadMe.  
 
 ## Table of Contents  
 
@@ -17,23 +17,23 @@ description testing
 
 ## Installation  
 
-installation test  
+Clone the repository. Open in code editor. While in the file, download inquirer by typing "npm I inquirer" into the command line.  
 
 ## Usage  
 
-instruction use test  
+After a successful installation, type "node index.js" into the command line. Follow the prompts, and a ReadMe will be automatically generated.  
 
 ## License  
 
-This project is currently licensed under the The Unlicense license.  
+This project is currently licensed under the MIT license.  
 
 ## Contributing  
 
-contributions test  
+No contributions at this time. Thank you.  
 
 ## Tests  
 
-test instructions test  
+Tests may be trial and error. Follow the installation and usage instructions.  
 
 ## Questions  
 
