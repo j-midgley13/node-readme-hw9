@@ -52,6 +52,8 @@ I Also had troubles finding ways to get a picture of the license, but some class
 I learned a lot from this homework. I learned how to create a package.json file from npm i.  I learned how to install different packages into the json file and how to use them. I learned how to call different scripts in order to do certain functions. I learned how to write those files into different ones.   
 
 # Video Link 
+
+![Alt Text](Develop/utils/media/CondensedReadMe.gif)
 [Link to my Google Drive with the full video](https://drive.google.com/file/d/1kmpewyH9L9in3zoAqz_qbj5GWvkoRVV7/view?usp=sharing)
 
 
