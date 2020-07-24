@@ -1,18 +1,11 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
 const generateMarkdown = require("./utils/generateMarkdown.js");
-// array of questions for user
-// const questions = [
-
-// ];
-
-// function to write README file
-// function writeToFile(fileName, data) {
-// }
 
 // function to initialize program
 function init() {
     inquirer.prompt([
+        // question inputs for inquirer when called in command line
         {
             type: "input",
             message: "Enter the title of your project.",
@@ -73,7 +66,7 @@ function init() {
         console.log(answers);
 
         
-
+        // writes answers into ReadMe file in generateMarkdown.js
         fs.writeFile("README.md", generateMarkdown(answers), function(err){
             if (err){
                 return console.log(err);
@@ -84,6 +77,7 @@ function init() {
     
 };
 
+// Validates the answers to make sure no section is left blank.
 function answerVal(value) {
 
     if (value === "") {

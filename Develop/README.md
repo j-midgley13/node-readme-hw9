@@ -1,10 +1,10 @@
-# Project Test
+# ReadMe Generator
 
-  ##  ![License: BSD 3--clause](https://img.shields.io/badge/License-BSD%203--clause-informational?style=for-the-badge&logo=appveyor.svg)
+  ##  ![License: The Unlicense](https://img.shields.io/badge/License-The%20Unlicense-informational?style=for-the-badge&logo=appveyor.svg)
 
 ## Description  
 
-LSifhosd hgfsdifh   
+This project is designed for a user to generate a README.md file for any project using the command line. Easy set up for a professional-looking ReadMe.  
 
 ## Table of Contents  
 
@@ -17,23 +17,23 @@ LSifhosd hgfsdifh
 
 ## Installation  
 
-kfjbs dkj ghsdkjgh  
+Clone the repository. Open in code editor. While in the file, download inquirer by typing "npm i inquirer" in to the command line.  
 
 ## Usage  
 
-oifhsdoigfhsdo ih  
+After a successful installation, type "node index.js" into the command line. Follow the prompts, and a ReadMe will automatically be generated.  
 
 ## License  
 
-This project is currently licensed under the BSD 3--clause license.  
+This project is currently licensed under the The Unlicense license.  
 
 ## Contributing  
 
-kjfkjdhf sd  
+No contributions at this time. Thank you.  
 
 ## Tests  
 
-k  
+Tests may be by trial and error. Follow installation and usage instructions.  
 
 ## Questions  
 
