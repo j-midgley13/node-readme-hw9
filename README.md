@@ -53,7 +53,7 @@ I learned a lot from this homework. I learned how to create a package.json file 
 
 # Video Link 
 
-![process gif](./Develop/utils/media/CondensedReadMe.gif)
+![process gif](../utils/media/CondensedReadMe.gif)  
 [Link to my Google Drive with the full video](https://drive.google.com/file/d/1kmpewyH9L9in3zoAqz_qbj5GWvkoRVV7/view?usp=sharing)
 
 
