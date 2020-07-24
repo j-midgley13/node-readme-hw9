@@ -16,52 +16,63 @@ function init() {
         {
             type: "input",
             message: "Enter the title of your project.",
-            name: "title"
+            name: "title",
+            validate: answerVal
         },
         {
             type: "input",
             message: "Enter a description for your project.",
-            name: "description"
+            name: "description",
+            validate: answerVal
         },
         {
             type: "input",
             message: "Enter instructions on installation of your project.",
-            name: "installation"
+            name: "installation",
+            validate: answerVal
         },
         {
             type: "input",
             message: "Enter instructions on how to use your project.",
-            name: "usage"
+            name: "usage",
+            validate: answerVal
         },
         {
             type: "list",
             message: "Select the type of license you would like to use for this project.",
             choices: ["MIT", "MPL 2.0", "Apache 2.0", "GNU GPLv3", "BSD 3--clause", "The Unlicense", "Boost 1.0", "ISC", "AGPLv3"],
-            name: "license"
+            name: "license",
+            validate: answerVal
         },
         {
             type: "input",
             message: "Enter the contribution guidelines for your project.",
-            name: "contribution"
+            name: "contribution",
+            validate: answerVal
         },
         {
             type: "input",
             message: "Enter the test instructions for your project.",
-            name: "test"
+            name: "test",
+            validate: answerVal
         },
         {
             type: "input",
             message: "Enter your GitHub username.",
-            name: "username"
+            name: "username",
+            validate: answerVal
         },
         {
             type: "input",
             message: "Enter your email address.",
-            name: "email"
+            name: "email",
+            validate: answerVal
         },
     ])
     .then(function(answers) {
         console.log(answers);
+
+        
 
         fs.writeFile("README.md", generateMarkdown(answers), function(err){
             if (err){
@@ -71,6 +82,15 @@ function init() {
         console.log("successful install");
     });
     
+};
+
+function answerVal(value) {
+
+    if (value === "") {
+        return "Section cannot be left blank."
+    } else {
+        return true;
+    }
 };
 
 // function call to initialize program
